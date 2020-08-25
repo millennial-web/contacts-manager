@@ -21,4 +21,13 @@ class CustomAttribute extends Model
     protected $fillable = [
         'contact_id', 'key', 'value'
     ];
+
+
+    /**
+     * Get the contact that owns the custom_attribute.
+     */
+    public function contact()
+    {
+        return $this->belongsTo('App\Contact');
+    }
 }

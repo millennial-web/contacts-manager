@@ -17,7 +17,8 @@ class CreateCustomAttributesTable extends Migration
             $table->bigIncrements('id');
             $table->unsignedBigInteger('contact_id');
             $table->string('key');
-            $table->string('value');
+            $table->string('value')->nullable();
+            $table->timestamps();
         });
     }
 

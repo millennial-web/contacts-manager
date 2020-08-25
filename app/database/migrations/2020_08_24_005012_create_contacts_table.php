@@ -18,7 +18,7 @@ class CreateContactsTable extends Migration
             $table->unsignedBigInteger('team_id');
             $table->string('name')->nullable();
             $table->string('phone');
-            $table->string('email')->nullable();
+            $table->string('email');
             $table->string('sticky_phone_number_id')->nullable();
             $table->timestamps();
         });
