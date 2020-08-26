@@ -10,6 +10,9 @@
             </div>
             <hr>
         @endif 
+        <a href="/testcontactsimport.csv" class="btn btn-success">
+            <i class="fa fa-file"></i> Download Example CSV
+        </a>
         <a href="import-contacts" class="btn btn-success">
             <i class="fa fa-rocket"></i> Import Contacts
         </a>
