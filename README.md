@@ -3,6 +3,7 @@ A Contacts Manager with auto Import from CSV / Excel Files
 
 # Running Demo
 * clone repository
+* run composer install for dependancies
 * create mysql database contacts_app
 * create user contacts_app with password 'secret' 
 * update local .env file with database and user/pass
